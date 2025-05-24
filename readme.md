@@ -97,7 +97,7 @@ This project demonstrates basic GUI programming, JSON handling, file I/O, and si
 
 If you see an error like this when clicking **Publish**:
 
-```
+``` text
 Git operation failed: Command failed: git push
 To https://github.com/lkhanna1505/no_DBMS_fetch.git
 ! [rejected] master -> master (fetch first)
