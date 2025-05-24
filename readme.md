@@ -1,4 +1,3 @@
-text
 # NoteApp
 
 A simple Java Swing application for adding and publishing notes to a `data.json` file using Gson.  
@@ -65,8 +64,6 @@ text
 ├── requirements.txt
 └── .gitignore
 
-text
-
 ---
 
 ## Example `data.json`
@@ -84,6 +81,5 @@ text
 }
 ]
 
-text
 
 ---
