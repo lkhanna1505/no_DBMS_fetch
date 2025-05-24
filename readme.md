@@ -1,4 +1,3 @@
-text
 # NoteApp
 
 A simple Java Swing application for adding and publishing notes to a `data.json` file using Gson.  
@@ -25,24 +24,30 @@ This project demonstrates basic GUI programming, JSON handling, and file I/O in 
 ## Setup
 
 1. **Clone this repository:**
+
+``` bash
+
 git clone "the repo url"
 cd your-repo
+```
 
-text
 
 2. **Download the Gson JAR:**
 - Download from [Maven Central](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar)
 - Place `gson-2.10.1.jar` in your project directory.
 
 3. **Compile the code:**
+``` bash
 javac -cp ".;gson-2.10.1.jar" NoteApp.java
+```
 
-text
 
 4. **Run the application:**
-java -cp ".;gson-2.10.1.jar" NoteApp
 
-text
+``` bash
+java -cp ".;gson-2.10.1.jar" NoteApp
+```
+
 
 ---
 
@@ -57,6 +62,7 @@ text
 
 ## File Structure
 
+```
 .
 ├── NoteApp.java
 ├── gson-2.10.1.jar
@@ -64,13 +70,13 @@ text
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-
-text
+```
 
 ---
 
 ## Example `data.json`
 
+``` json
 [
 {
 "heading": "First Note",
@@ -83,7 +89,6 @@ text
 "editedText": "Here is some more text for the second note!"
 }
 ]
+```
+undefined
 
-text
-
----
