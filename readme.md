@@ -25,8 +25,8 @@ This project demonstrates basic GUI programming, JSON handling, and file I/O in 
 
 1. **Clone this repository:**
 
-bash []
 '''
+bash []
 git clone "the repo url"
 cd your-repo
 '''
