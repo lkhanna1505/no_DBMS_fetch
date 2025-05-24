@@ -96,5 +96,45 @@ This project demonstrates basic GUI programming, JSON handling, file I/O, and si
 
 If you see an error like this when clicking **Publish**:
 
+```
+Git operation failed: Command failed: git push
+To https://github.com/lkhanna1505/no_DBMS_fetch.git
+! [rejected] master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/lkhanna1505/no_DBMS_fetch.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+```
+
+
+**What does this mean?**  
+This error occurs when your local repository is behind the remote repository (someone else has pushed changes you don't have locally).
+
+**How to fix:**  
+1. Pull the latest changes and rebase your work:
+    ``` bash
+    git pull --rebase
+    ```
+    or
+    ``` bash
+    git pull
+    ```
+2. Resolve any conflicts if prompted.
+3. Push your changes again:
+    ``` bash
+    git push
+    ```
+
+**Tip:**  
+You can update the application's publish logic to run `git pull --rebase` before `git push` for automatic integration and to avoid this error.
+
+---
+
+**Note:**  
+Do not use `git push --force` unless you are sure you want to overwrite remote changes.  
+Always prefer pulling and rebasing to keep your history and collaborators' work intact.
+
 
 
