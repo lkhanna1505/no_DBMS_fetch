@@ -89,6 +89,7 @@ This project demonstrates basic GUI programming, JSON handling, file I/O, and si
 "editedText": "Here is some more text for the second note!"
 }
 ]
+```
 
 ---
 
