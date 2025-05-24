@@ -62,6 +62,7 @@ java -cp ".;gson-2.10.1.jar" NoteApp
 
 ## File Structure
 
+```
 .
 ├── NoteApp.java
 ├── gson-2.10.1.jar
@@ -69,13 +70,13 @@ java -cp ".;gson-2.10.1.jar" NoteApp
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-
+```
 
 ---
 
 ## Example `data.json`
 
-
+``` json
 [
 {
 "heading": "First Note",
@@ -88,5 +89,6 @@ java -cp ".;gson-2.10.1.jar" NoteApp
 "editedText": "Here is some more text for the second note!"
 }
 ]
+```
 undefined
 
